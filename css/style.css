@@ -1,0 +1,505 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+.head  {
+    background-image: url(../image/a1.webp);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.H1 {
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: 2px 2px 10px #b3b0b0;
+    overflow: hidden;  
+}
+.container img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 0%;
+}
+.home .container {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.home .container p {
+     text-align: justify;
+     padding: 0px 7px 4px 7px;
+     text-indent: 12px;
+
+}
+.Culture {
+    height: 350px;
+    width: 210px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.link {
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 7px #979393;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.nav1 {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color:black;
+    top: 0%;
+}
+
+.nav1 ul {
+    display: flex;
+    gap: 40px;
+     list-style: none;
+     justify-content: center;
+}
+.nav1 ul li a  {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    box-shadow: 2px 5px #979393;
+   border-radius: 5px;
+   padding: 5px; 
+}
+.nav1 ul li ul {
+    position: absolute;
+    display: none;
+}
+
+.nav1 ul li:hover  ul {
+    display: block;
+}
+.nav1 ul li ul li {
+    border-bottom: 1px solid #fff;
+    font-size: 10px;
+    padding: 5px 20px;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.nav1 ul li ul li>a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0%;
+    padding: 0%;
+    box-shadow: none;
+    border-radius: 0%;
+}
+.active {
+    color:black;
+    text-decoration: underline;
+    background-color:white;
+ }
+.footer {
+    width: 100%;
+    background-color: black;
+    margin: 0%;
+    margin-top: 10px;
+    padding: 1px 0px;
+    text-align: center;
+    line-height: 2px;
+}
+.footer h2 {
+    font-size: 20px;
+    text-shadow: ;
+    color: white;
+    text-shadow: 2px 2px 10px #dbd9d9;
+}
+.footer ul {
+    display: flex;
+    gap: 20px;
+     list-style: none;
+     justify-content: center;
+     font-size: 20px;
+}
+.footer>ul>li>a>i {
+    list-style: none;
+    color: white;
+
+}
+.footer>ul>li>a>i:hover {
+    color: rgb(201, 194, 194);
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: 2px 4px 10px #e4e2e2;
+}
+.general div p {
+    margin: 5px 20px;
+   font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    align-content: 15px;
+    text-indent: 20px;
+    font-size: 20px;
+
+}
+.Believe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+    width: 1000px;
+    height: 610px;
+   margin: 20px auto;
+
+}
+
+.picb1 {
+    height: 300px;
+    width:600px;
+    grid-column: span 2 ;
+    border-radius: 10px;
+    animation: believe1 25s linear  infinite;
+}
+
+@keyframes believe1 {
+    0% {
+        background-image: url(../image/ma1.jpg);
+        background-size: 100% 100%;
+        background-position: center; 
+    }
+   50% {
+    background-image: url(../image/ma2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   100% {
+    background-image: url(../image/ma3.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+   } 
+} 
+.picb2 {
+    height: 610px;
+    width: 400px;
+   grid-row: span 2;
+   border-radius: 10px;
+    animation: believe2 25s linear infinite;
+}
+@keyframes believe2 {
+    0% {
+        background-image: url(../image/de1.jpg);
+        background-size: 100% 100%;
+        background-position: center; 
+    }
+   50% {
+    background-image: url(../image/de2.jfif);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   100% {
+    background-image: url(../image/de3.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+   } 
+}
+.picb3 {
+    height: 300px;
+    width: 600px;
+    grid-column:  span 2;
+    border-radius: 10px;
+    animation: believe3 25s linear infinite;
+}
+@keyframes believe3 {
+    0% {
+        background-image: url(../image/re1.jpg);
+        background-size: 100% 100%;
+        background-position: center; 
+    }
+   50% {
+    background-image: url(../image/re2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   100% {
+    background-image: url(../image/re3.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+   } 
+}
+.literature {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.picl1 {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    animation: literature1 25s linear  infinite;
+}
+@keyframes literature1 {
+    0% {
+        background-image: url(../image/bo1.webp);
+        background-size: 100% 100%;
+        background-position: center; 
+    }
+   50% {
+    background-image: url(../image/bo2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   100% {
+    background-image: url(../image/bo3.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+   } 
+}
+.picl2 {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    animation: literature2 25s linear  infinite;
+}
+@keyframes literature2 {
+    0% {
+        background-image: url(../image/po1.jpg);
+        background-size: 100% 100%;
+        background-position: center; 
+    }
+   50% {
+    background-image: url(../image/po2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   100% {
+    background-image: url(../image/po3.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+   } 
+}
+.music {
+    display: flex;
+    gap: 10px;
+   width: 1200px;
+  justify-content: center;
+  margin: 20px auto;
+}
+.picm1 img {
+     height: 400px;
+     width: 400px;
+}
+.picm2 img {
+    height: 400px;
+    width: 800px;
+}
+
+.clothes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  width: 1000px;
+  height: 600px;
+ margin: 20px auto;
+}
+.clothes img {
+    height: 100%;
+    width: 100%;
+}
+.picc1 {
+    height: 300px;
+    width: 600px;
+    grid-column: span 2 ;
+    border-radius: 10px;
+}
+.picc2 {
+    height: 600px;
+    width: 400px;
+   grid-row: span 2;
+   border-radius: 10px;
+}
+.picc3 {
+    height: 300px;
+    width: 600px;
+    grid-column:  span 2;
+    border-radius: 10px;
+}
+
+
+.food {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.picf {
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    animation: food 25s linear infinite;
+}
+@keyframes food {
+    0% {
+        background-image: url(../image/fo1.jpg);
+        background-size: 100% 100%;
+        background-position: center; 
+    }
+  35% {
+    background-image: url(../image/fo2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   70% {
+    background-image: url(../image/fo3.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   100% {
+    background-image: url(../image/fo4.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+   } 
+}
+
+.celebration {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+    width: 1000px;
+    height: 610px;
+   margin: 20px auto;
+
+}
+
+.picce1 {
+    height: 300px;
+    width:600px;
+    grid-column: span 2 ;
+    border-radius: 10px;
+    animation: eid 25s linear  infinite;
+}
+
+@keyframes  eid {
+    0% {
+        background-image: url(../image/eid1.png);
+        background-size: 100% 100%;
+        background-position: center; 
+    }
+  25% {
+    background-image: url(../image/eid1\ \(7\).jpg);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   50% {
+    background-image: url(../image/eid2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   75% {
+    background-image: url(../image/eid3.webp);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   
+   100% {
+    background-image: url(../image/eid4.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+   } 
+} 
+.picce2 {
+    height: 610px;
+    width: 400px;
+   grid-row: span 2;
+   border-radius: 10px;
+    animation: newday 25s linear 1s infinite;
+}
+@keyframes newday {
+    0% {
+        background-image: url(../image/new1.jpg);
+        background-size: 100% 100%;
+        background-position: center; 
+    }
+   50% {
+    background-image: url(../image/new2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   100% {
+    background-image: url(../image/new3.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+   } 
+}
+.picce3 {
+    height: 300px;
+    width: 600px;
+    grid-column:  span 2;
+    border-radius: 10px;
+    animation: wedding 25s linear 1s  infinite;
+}
+@keyframes wedding {
+    0% {
+        background-image: url(../image/we1.jpg);
+        background-size: 100% 100%;
+        background-position: center; 
+    }
+   50% {
+    background-image: url(../image/we2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+   }
+   100% {
+    background-image: url(../image/we3.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+   } 
+}
+.place {
+    display: flex;
+    gap: 10px;
+  justify-content: center;
+}
+.place img {
+    border-radius: 10px;
+    transition: transform 2s linear;
+}
+.place img:hover {
+   transform: scale(1.1);
+}
+.picture {
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+   justify-content: center;
+}
+.picture div {
+    width: 300px;
+    height: 300px;
+    margin: 30px 10px;
+}
+.picture div img {
+    border-radius: 10px;
+}
+.picture div p {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+
+
